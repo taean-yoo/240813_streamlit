@@ -10,6 +10,11 @@ st.set_page_config(
 st.title("맛집 리스트")
 st.markdown("**울산 맛집**을 추가해서 리스트를 채워보세요!")
 
+with st.sidebar:
+    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    "[View the source code](https://github.com/taean-yoo/240813_streamlit/blob/main/pages/1_translater.py)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+
 type_emoji_dict = {
     "한식": "⚪",
     "중식": "✊",
