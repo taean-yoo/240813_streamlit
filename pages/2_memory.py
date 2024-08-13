@@ -20,9 +20,9 @@ type_emoji_dict = {
 
 initial_restaruant= [
     {
-        "name": "유니스트 학식",
-        "types": ["한식"],
-        "date": "2024-10-04"
+        "name": "박사 반점",
+        "types": ["중식"],
+        "date": "2024-08-13"
     },
 ]
 
