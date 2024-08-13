@@ -14,6 +14,11 @@ st.set_page_config(
 st.title("우리 :red[언제] 만날까? :calendar:")
 st.caption("🚀 가능한 날짜를 sidebar에서 채워주세요")
 
+with st.sidebar:
+    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    "[View the source code](https://github.com/taean-yoo/240813_streamlit/blob/main/pages/1_translater.py)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+
 today = datetime.datetime.now()
 month_1 = datetime.date(today.year, today.month, 1)
 dec_31 = datetime.date(today.year, 12, 31)
