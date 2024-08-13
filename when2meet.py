@@ -12,7 +12,7 @@ st.set_page_config(
         layout="wide"
 )
 st.title("우리 :red[언제] 만날까? :calendar:")
-st.caption("🚀 가능한 날짜를 sidebar에서 채워주세요")
+st.caption("🚀 가능한 시간을 마우스를 이용해 채워주세요")
 
 with st.sidebar:
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
